@@ -73,7 +73,7 @@ function App() {
               value={name}
               onChange={(e) => setName(e.target.value)}
               className="w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder="Enter your name"
+              placeholder="Enter name"
               required
             />
           </div>
@@ -117,7 +117,7 @@ function App() {
         <>
           <div className="flex flex-col h-screen w-3/4 rounded-xl bg-gray-100">
             <div className="bg-blue-600 text-white p-4 text-center font-semibold">
-              Chat Box
+              Echoes Box
             </div>
 
             <div className="flex-1 flex-col overflow-y-auto p-4 space-y-4 bg-gray-50">

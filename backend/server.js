@@ -13,7 +13,7 @@ const reply = async (Name, Relation, Feed, Message) => {
     messages: [
       {
         role: "user",
-        content: `pretend to be my ${Relation} named ${Name}.${Message}. they talk like this ${Feed}`,
+        content: `pretend to be my ${Relation} named ${Name}. They talk like this ${Feed}dont break away from the character.send only the reply. ${Message}`,
       },
     ],
     max_tokens: 500,
